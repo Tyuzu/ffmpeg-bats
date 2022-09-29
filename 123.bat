@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter:v scale=-1:600 -c:a copy %1.webm

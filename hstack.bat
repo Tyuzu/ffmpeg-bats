@@ -1,0 +1,1 @@
+ffmpeg -i a.mp4 -i b.mp4 -filter_complex hstack ab_htack.mp4

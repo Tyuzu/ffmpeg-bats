@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter_complex "[0:v]crop=50:50:20:10,avgblur=10[b0];[0:v]crop=iw:30:(iw-ow)/2:ih-oh,avgblur=10[b1];[0:v]crop=10:10:120:80,avgblur=10[b2];[0:v][b0]overlay=20:10[ovr0];[ovr0][b1]overlay=(W-w)/2:H-h[ovr1];[ovr1][b2]overlay=120:80" -c:a copy -movflags +faststart output.mp4

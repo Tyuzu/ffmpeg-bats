@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf "lutyuv=y=negval:u=val:v=val, lutrgb=r=negval:g=negval:b=negval" %1_naevis.mp4

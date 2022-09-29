@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf normalize=blackpt=black:whitept=white:smoothing=2.5  -qscale:a 4 -pix_fmt yuv420p %1_nrm.mp4

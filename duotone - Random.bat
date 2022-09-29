@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter_complex "[0:v]format=yuv420p[v0];gradients=s=256x1:c0=0x000000:c1=0xffffff:x0=0:y0=0:x1=256:y1=0:n=4,trim=end_frame=1[v1];[v0][v1]paletteuse" %1_duorndm.mp4

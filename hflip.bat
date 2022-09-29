@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf "hflip" %1.mp4

@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf "lutyuv="y=val:u=val:v=val",colorchannelmixer=.964:.956:.965:0:.523:.586:.595:0:.572:.534:.531" -c:a copy -pix_fmt yuv420p %1_lut_clr.mp4

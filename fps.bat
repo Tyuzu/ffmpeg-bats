@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter:v "setpts=PTS,fps=30" %1.mp4

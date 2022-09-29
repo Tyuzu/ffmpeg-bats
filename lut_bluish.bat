@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf lutyuv=u='(val-maxval/2)*2+maxval/2':v='(val-maxval/2)*2+maxval/2' %1_.webm

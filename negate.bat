@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf lutyuv="y=negval:u=val:v=val" %1_negate.mp4

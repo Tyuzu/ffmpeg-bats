@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf "edgedetect=enable='gt(mod(t,60),57)',negate" -c:a copy %1_ed.mp4

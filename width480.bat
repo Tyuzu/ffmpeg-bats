@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter:v scale=-2:480 -c:a copy -pix_fmt yuv420p %1.mp4

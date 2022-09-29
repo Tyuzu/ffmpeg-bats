@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf hue=h=60 %1.mp4

@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf lutrgb="r=0.75*val:b=0.9*val",lutyuv="y=1.2*val" %1_bg.mp4

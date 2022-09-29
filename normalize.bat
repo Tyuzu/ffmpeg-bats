@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf normalize=blackpt=black:whitept=white:smoothing=0 %1.mp4

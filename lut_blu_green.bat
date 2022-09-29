@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf lutrgb="g=0:b=0" %1_bg.mp4

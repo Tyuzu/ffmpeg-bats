@@ -1,0 +1,1 @@
+ffmpeg -f concat -i list.txt -auto_convert 1 -c copy ghg.mp4

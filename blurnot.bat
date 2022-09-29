@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter_complex "[0:v]crop=500:500:100:400,normalize=blackpt=black:whitept=white:smoothing=0.9[fg]; [0:v][fg]overlay=100:400[v]" -map "[v]"  %1_blurnot.mp4

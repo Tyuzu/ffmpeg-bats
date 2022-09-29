@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf 'reverse' -filter:a 'areverse' %1_rev.mp4

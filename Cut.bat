@@ -1,0 +1,1 @@
+ffmpeg -ss 00:00:00.000 -i %1 -to 00:00:07.000 -c copy -copyts %1_.mp4

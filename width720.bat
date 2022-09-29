@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter:v scale=-2:720 -c:a copy %1.mp4

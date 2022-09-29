@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf lutyuv=u='(val-maxval/2)*2+maxval/2':v='(val-maxval/2)*2+maxval/2':y='1.5*val' %1_lut.mp4

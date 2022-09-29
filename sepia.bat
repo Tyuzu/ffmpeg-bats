@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter:v colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131 %1_sepia.mp4

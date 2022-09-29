@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf "drawtext=text='EditedByEllygator':x=w-tw:y=h-th:font=Breezesans:fontsize=20:fontcolor=brown" -c:a copy %1.mp4

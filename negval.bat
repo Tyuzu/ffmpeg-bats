@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf lutrgb="r=negval:g=negval:b=negval" %1_negval.mp4

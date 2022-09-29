@@ -1,0 +1,1 @@
+ffmpeg -i input.mp4 -vf "colorbalance=bm=.1:rm=.1:gm=.1" -pix_fmt yuv420p output.mp4 

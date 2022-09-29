@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf lutyuv="u=128:v=128" %1_chr.mp4

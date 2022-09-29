@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vcodec copy -an %1.webm

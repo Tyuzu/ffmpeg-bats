@@ -1,0 +1,1 @@
+ffmpeg -hide_banner -i %1 -lavfi "perspective=x0=225:y0=0:x1=715:y1=385:x2=-60:y2=469:x3=615:y3=634:interpolation=linear" %1.mp4

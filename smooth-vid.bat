@@ -1,0 +1,1 @@
+ffmpeg -i %1 -filter:v "minterpolate='mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps=120'" %1.mp4

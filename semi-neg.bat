@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf colorbalance=bm=0:rm=0:gm=0,lutrgb="r=val:g=val:b=val" %1_smneg.mp4

@@ -1,0 +1,1 @@
+ffmpeg -i %1 -vf crop=800:1600:100:0 -c:a copy %1.mp4
